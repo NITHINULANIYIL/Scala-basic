@@ -1,0 +1,13 @@
+package forlooplist
+
+object forlooplist{
+	def main(args:Array[String])
+	{
+		var a = 0
+		val numlist = List(1,2,3,4)
+		for(a <- numlist)
+		{
+			println("The value of a is ", + a);
+		}
+	}
+}
